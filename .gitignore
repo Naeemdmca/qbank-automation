@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - don't commit large files
+input_pdfs/*.pdf
+input_images/*.jpg
+input_images/*.jpeg
+input_images/*.png
+input_images/*.gif
+input_images/*.webp
+output/temp_markdown/
+output/images/
+*.csv
+
+# Keep directory structure
+!input_pdfs/.gitkeep
+!input_images/.gitkeep
+!output/.gitkeep
